@@ -51,6 +51,4 @@ if st.sidebar.button("Predict"):
     st.subheader("Kết quả dự đoán")
     st.success(f"Dự đoán: {prediction}")
 
-st.markdown("---")
-st.markdown("### Gợi ý")
-st.write("cần chạy notebook training trước để tạo model trong thư mục `models/`.")
+
